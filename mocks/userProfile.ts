@@ -1,0 +1,25 @@
+export const mockUserProfile = {
+  id: "current-user",
+  name: "Mike Johnson",
+  profession: "Master Electrician",
+  email: "mike.johnson@email.com",
+  phone: "+1 (206) 555-0123",
+  location: "Seattle, WA",
+  rating: 4.8,
+  reviewCount: 127,
+  completedJobs: 342,
+  yearsExperience: 12,
+  responseTime: "< 1 hour",
+  about: "Licensed master electrician with over 12 years of experience in residential and commercial electrical work. Specialized in troubleshooting, panel upgrades, and smart home installations. Committed to providing safe, reliable, and efficient electrical solutions.",
+  skills: [
+    "Electrical Wiring",
+    "Panel Upgrades",
+    "Troubleshooting",
+    "Smart Home Setup",
+    "Emergency Repairs",
+    "Code Compliance",
+    "LED Installation",
+    "Circuit Breakers"
+  ],
+  verificationStatus: "unverified" as const,
+};
